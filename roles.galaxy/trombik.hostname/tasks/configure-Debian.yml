@@ -1,6 +1,0 @@
----
-
-- name: Update hostname in /etc/hostname
-  copy:
-    dest: /etc/hostname
-    content: "{{ hostname_fqdn.split('.') | first }}"

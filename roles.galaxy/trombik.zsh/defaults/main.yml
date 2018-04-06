@@ -1,2 +1,0 @@
-zsh_package: "{{ __zsh_package }}"
-zsh_additional_packages: []

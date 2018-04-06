@@ -1,6 +1,0 @@
----
-
-- name: Update hostname in myname(5)
-  copy:
-    dest: /etc/myname
-    content: "{{ hostname_fqdn }}"
